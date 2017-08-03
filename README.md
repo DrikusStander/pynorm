@@ -16,8 +16,8 @@ Will correct your author file if it is incorrect.
 
 If this flag isn't used it only checks if your author file is correct.
 
-## Alias ##
+## Run remotely ##
 
 ```
-alias normall="python <path to script>/pynorm.py"
+python <(curl -s https://raw.githubusercontent.com/AnActualBridge/pynorm/master/pynorm.py)
 ```
