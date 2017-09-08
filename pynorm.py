@@ -43,7 +43,7 @@ def	check_author(path=os.getcwd()):
 		print msg[status]
 
 def	norm_files(files):
-	inc = 35
+	inc = 30
 	
 	for  i in range(0, len(files), inc):
 		batch = " ".join(files[i : i + inc])
